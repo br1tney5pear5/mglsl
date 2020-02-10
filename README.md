@@ -12,7 +12,7 @@ All it adds to the GLSL are the following directives:
 #require /* comma separated list of one or more other modules used by this module */
 // There can be many require directives, MGLSL also doesn't mind if requirements repeat.
 
-#type <module type>
+#type /* module type */
 // Module type refers to shader type (like Vertex, Fragment, Tesselation Control...).
 // This feature is currently not used
 ```
@@ -215,7 +215,7 @@ To disable logging completely, e.g. for release version of your code:
 #define MGLSL_SHADER_MAX_PATH_LEN (255 - 1)
 //    Set custom maximum file path lenght.
   ```
-## LICENCE
+## LICENSE
 
 >Copyright 2020 Kacper Kokot
 
