@@ -1,0 +1,3 @@
+#module structs
+
+struct DummyStruct {};
