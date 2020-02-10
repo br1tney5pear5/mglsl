@@ -13,7 +13,7 @@ All it adds to the GLSL are the following directives:
 // There can be many require directives, MGLSL also doesn't mind if requirements repeat.
 
 #type /* module type */
-// Module type refers to shader type (like Vertex, Fragment, Tesselation Control...).
+// Refers to shader type (like Vertex, Fragment, Tesselation Control...).
 // This feature is currently not used
 ```
 When the module source is parsed added directives are stripped, finally modules are 
