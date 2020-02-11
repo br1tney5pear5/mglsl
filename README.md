@@ -1,4 +1,6 @@
 ## ABOUT
+[![Build Status](https://travis-ci.com/kcpikkt/mglsl.svg?branch=master)](https://travis-ci.com/kcpikkt/mglsl)
+
 Modular GLSL is a single-header extension to OpenGL Shading Language aiming to simplify working with
 hefty shaders and reduce code repetition by splitting them into modules. 
 In essence it is a GLSL pre-pre-processor. It is written in C to be easily portable to other languages.
