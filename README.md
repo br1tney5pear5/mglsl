@@ -56,14 +56,12 @@ int mglsl_free_module (mglsl_Module * module);
 // This function resolve dependencies and assmebles final shader from modules.
 
 int mglsl_assemble_shader
-    (char ** bufptr, const char * root_module_name, 
-     mglsl_Module * module_arr, size_t module_arr_len);
+    (char ** bufptr, const char * root_module_name, mglsl_ModuleArr * module_arr);
 //   bufptr           - Address to pointer to null-terminated, final shader source
 //                      buffer this function allocates and returns.
 //   root_module_name - Name of the root module from which to start, 
 //                      in most cases it is your glsl main module.
 //   module_arr       - Array of modules from which to assemble the shader.
-//   module_arr_len   - Length of module_arr array.
 
 // All Shaders created with above function must be freed with call following function:
 
