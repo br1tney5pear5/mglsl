@@ -17,6 +17,4 @@ script:
     - export CC=/usr/bin/gcc-6
     - gcc -v
 
-    - gcc mglsl.h
-
-
+    - gcc -std=c99 mglsl.h
