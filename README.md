@@ -1,8 +1,8 @@
 ## ABOUT
 [![Build Status](https://travis-ci.com/kcpikkt/mglsl.svg?branch=master)](https://travis-ci.com/kcpikkt/mglsl)
 
-Modular GLSL is a single-header extension to OpenGL Shading Language aiming to simplify working with
-hefty shaders and reduce code repetition by splitting them into modules. 
+Modular GLSL is a single-header extension to OpenGL Shading Language aiming to **simplify working with
+hefty shaders and reduce code repetition** by splitting them into modules. 
 In essence it is a GLSL pre-pre-processor. It is written in C to be easily portable to other languages.
 
 All it adds to the GLSL are the following directives:
@@ -26,7 +26,7 @@ may sometimes be questionable. Any circular or missing dependencies are reported
 MGLSL also provides simple interface to notify user app about changes in module files on disk, 
 reload modified modules and reassemble the shader.
 
-**Most importantly, MGLSL is a handy platform to implement automatic C++ to GLSL struct reflection, automatic uniform binding or live shader reloading in rendering applications.**
+MGLSL seems also like a handy platform to implement automatic C++ to GLSL struct reflection, automatic uniform binding or live shader reloading in rendering applications.
 
 Previous draft of this library written in C++:  https://www.github.com/kcpikkt/modular-glsl
 ## DEPENDENCIES
